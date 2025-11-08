@@ -3,34 +3,55 @@ import { useEffect, useRef, useState } from "react";
 
 export function useOnline() {
   const [online, setOnline] = useState<boolean>(true);
-  const poller = useRef<NodeJS.Timer | null>(null);
+  const lastVal = useRef<boolean>(true);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     let sub: any;
 
+    const publish = (next: boolean) => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+      // Debounce to avoid quick flip/flop
+      debounceRef.current = setTimeout(() => {
+        if (lastVal.current !== next) {
+          lastVal.current = next;
+          setOnline(next);
+        }
+      }, 800);
+    };
+
     const check = async () => {
-      const st = await Network.getNetworkStateAsync();
-      const isOn = !!st.isConnected && st.isInternetReachable !== false;
-      setOnline(isOn);
+      try {
+        const st = await Network.getNetworkStateAsync();
+        // Treat null as "unknown" → keep previous
+        const reachable = st.isInternetReachable;
+        const next =
+          !!st.isConnected && (reachable === null ? lastVal.current : reachable !== false);
+        publish(next);
+      } catch {
+        publish(true);
+      }
     };
 
     check();
 
-    // Some SDKs expose addNetworkStateListener; if not, fall back to polling
     const maybeSub = (Network as any)?.addNetworkStateListener?.((st: any) => {
-      const isOn = !!st.isConnected && st.isInternetReachable !== false;
-      setOnline(isOn);
+      const reachable = st.isInternetReachable;
+      const next =
+        !!st.isConnected && (reachable === null ? lastVal.current : reachable !== false);
+      publish(next);
     });
 
     if (maybeSub) {
       sub = maybeSub;
     } else {
-      poller.current = setInterval(check, 3000);
+      const id = setInterval(check, 3000);
+      sub = { remove: () => clearInterval(id) };
     }
 
     return () => {
       if (sub?.remove) sub.remove();
-      if (poller.current) clearInterval(poller.current);
+      if (debounceRef.current) clearTimeout(debounceRef.current);
     };
   }, []);
 

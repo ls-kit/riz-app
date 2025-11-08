@@ -1,0 +1,1242 @@
+2025-11-06T13:41:29.777Z expo:telemetry Switching strategy from detached to instant
+2025-11-06T13:41:29.863Z expo:telemetry Recording 1 event(s)
+2025-11-06T13:41:29.867Z expo:env D:\Project\App\webview\riziq-app\.env does not exist, skipping this env file
+2025-11-06T13:41:29.867Z expo:env D:\Project\App\webview\riziq-app\.env.development does not exist, skipping this env file
+2025-11-06T13:41:29.867Z expo:env D:\Project\App\webview\riziq-app\.env.local does not exist, skipping this env file
+2025-11-06T13:41:29.867Z expo:env D:\Project\App\webview\riziq-app\.env.development.local does not exist, skipping this env file
+Starting project at D:\Project\App\webview\riziq-app
+2025-11-06T13:41:30.005Z expo:prebuild-config:expo-splash-screen:ios config: {
+  image: './assets/images/splash-icon.png',
+  imageWidth: 200,
+  resizeMode: 'contain',
+  backgroundColor: '#ffffff',
+  dark: { backgroundColor: '#000000' }
+}
+2025-11-06T13:41:30.029Z expo:prebuild-config:expo-splash-screen:ios config: {
+  image: './assets/images/splash-icon.png',
+  imageWidth: 200,
+  resizeMode: 'contain',
+  backgroundColor: '#ffffff',
+  dark: { backgroundColor: '#000000' }
+}
+2025-11-06T13:41:30.158Z expo:start:server:devServer Stopping dev server (bundler: metro)
+2025-11-06T13:41:30.158Z expo:start:server:devServer Stopped dev server (bundler: metro)
+2025-11-06T13:41:30.177Z expo:prebuild-config:expo-splash-screen:ios config: {
+  image: './assets/images/splash-icon.png',
+  imageWidth: 200,
+  resizeMode: 'contain',
+  backgroundColor: '#ffffff',
+  dark: { backgroundColor: '#000000' }
+}
+2025-11-06T13:41:30.184Z expo:start:server:metro:router Using app as the root directory for Expo Router.
+2025-11-06T13:41:30.563Z expo:metro:config react-native-reanimated package.json: D:\Project\App\webview\riziq-app\node_modules\react-native-reanimated\package.json
+2025-11-06T13:41:30.564Z expo:metro:config react-native-worklets package.json: D:\Project\App\webview\riziq-app\node_modules\react-native-worklets\package.json
+
+Expo Metro config:
+- Version: 54.0.8
+- Extensions: ts, tsx, mjs, js, jsx, json, cjs, scss, sass, css
+- React Native: D:\Project\App\webview\riziq-app\node_modules\react-native
+- Watch Folders: 
+- Node Module Paths: 
+- Sass: null
+- Reanimated: 4.1.3
+- Worklets: 0.5.1
+- Babel Runtime: null
+
+React Compiler enabled
+2025-11-06T13:41:30.729Z expo:metro:withMetroResolvers Appending 8 custom resolvers to Metro config. (has custom resolver: false)
+2025-11-06T13:41:30.823Z expo:start:server:urlCreator URL: http://127.0.0.1:8081
+Starting Metro Bundler
+2025-11-06T13:41:31.512Z expo:prebuild-config:expo-splash-screen:ios config: {
+  image: './assets/images/splash-icon.png',
+  imageWidth: 200,
+  resizeMode: 'contain',
+  backgroundColor: '#ffffff',
+  dark: { backgroundColor: '#000000' }
+}
+2025-11-06T13:41:31.514Z expo:start:server:middleware:serveStatic Serving static files from: D:\Project\App\webview\riziq-app\public
+2025-11-06T13:41:31.523Z expo:start:server:devServer [tunnel] connect to port: 8081
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+2025-11-06T13:41:31.765Z expo:start:platforms:android:adbServer C:\Users\NS\AppData\Local\Android\Sdk/platform-tools/adb devices -l
+2025-11-06T13:41:31.962Z expo:start:server:ngrok Stopping Tunnel
+2025-11-06T13:41:31.962Z expo:start:server:ngrok Global config path: C:\Users\NS\.expo\ngrok.yml
+2025-11-06T13:41:32.178Z expo:start:server:ngrok Hostname: eIHXdGs-wdshakib-8081.exp.direct
+Tunnel connected.
+2025-11-06T13:41:34.757Z expo:start:server:ngrok Tunnel URL: https://eihxdgs-wdshakib-8081.exp.direct
+Tunnel ready.
+2025-11-06T13:41:34.757Z expo:start:server:urlCreator URL: exp://eihxdgs-wdshakib-8081.exp.direct
+2025-11-06T13:41:34.760Z expo:prebuild-config:expo-splash-screen:ios config: {
+  image: './assets/images/splash-icon.png',
+  imageWidth: 200,
+  resizeMode: 'contain',
+  backgroundColor: '#ffffff',
+  dark: { backgroundColor: '#000000' }
+}
+2025-11-06T13:41:35.172Z expo:start:server:developmentSession Development session ping (runtime: native, url: exp://eihxdgs-wdshakib-8081.exp.direct)
+2025-11-06T13:41:35.516Z expo:start:server:metro:waitForTypescript Watching file changes: [
+  'D:\\Project\\App\\webview\\riziq-app\\.env.development.local',
+  'D:\\Project\\App\\webview\\riziq-app\\.env.local',
+  'D:\\Project\\App\\webview\\riziq-app\\.env.development',
+  'D:\\Project\\App\\webview\\riziq-app\\.env'
+]
+2025-11-06T13:41:35.516Z expo:doctor:typescriptSupport Ensuring TypeScript support is setup
+2025-11-06T13:41:35.542Z expo:prebuild-config:expo-splash-screen:ios config: {
+  image: './assets/images/splash-icon.png',
+  imageWidth: 200,
+  resizeMode: 'contain',
+  backgroundColor: '#ffffff',
+  dark: { backgroundColor: '#000000' }
+}
+2025-11-06T13:41:35.544Z expo:doctor:dependencies:getMissingPackages Required package "typescript" found (no version constraint specified).
+2025-11-06T13:41:35.544Z expo:doctor:dependencies:getMissingPackages Required package "@types/react" found (no version constraint specified).
+2025-11-06T13:41:35.547Z expo:prebuild-config:expo-splash-screen:ios config: {
+  image: './assets/images/splash-icon.png',
+  imageWidth: 200,
+  resizeMode: 'contain',
+  backgroundColor: '#ffffff',
+  dark: { backgroundColor: '#000000' }
+}
+2025-11-06T13:41:35.548Z expo:typed-routes Ensuring typed routes side-effects are setup (experiments.typedRoutes: true, typesDirectory: D:\Project\App\webview\riziq-app\.expo\types)
+2025-11-06T13:41:35.549Z expo:start:server:metro:router Using app as the root directory for Expo Router.
+2025-11-06T13:41:35.555Z expo:start:server:metro:metroWatchTypeScriptFiles Waiting for TypeScript files to be added to the project...
+2025-11-06T13:41:35.556Z expo:doctor:dependencies:bundledNativeModules Fetching bundled native modules from the server...
+2025-11-06T13:41:36.345Z expo:doctor:dependencies:validate Checking dependencies for 54.0.0: {
+  '@expo/vector-icons': '^15.0.3',
+  '@react-native-async-storage/async-storage': '2.2.0',
+  '@react-navigation/bottom-tabs': '^7.4.0',
+  '@react-navigation/elements': '^2.6.3',
+  '@react-navigation/native': '^7.1.8',
+  expo: '~54.0.22',
+  'expo-constants': '~18.0.10',
+  'expo-font': '~14.0.9',
+  'expo-haptics': '~15.0.7',
+  'expo-image': '~3.0.10',
+  'expo-linear-gradient': '~15.0.7',
+  'expo-linking': '~8.0.8',
+  'expo-network': '~8.0.7',
+  'expo-router': '~6.0.14',
+  'expo-splash-screen': '~31.0.10',
+  'expo-status-bar': '~3.0.8',
+  'expo-symbols': '~1.0.7',
+  'expo-system-ui': '~6.0.8',
+  'expo-web-browser': '~15.0.9',
+  react: '19.1.0',
+  'react-dom': '19.1.0',
+  'react-native': '0.81.5',
+  'react-native-gesture-handler': '~2.28.0',
+  'react-native-reanimated': '~4.1.1',
+  'react-native-safe-area-context': '~5.6.0',
+  'react-native-screens': '~4.16.0',
+  'react-native-web': '~0.21.0',
+  'react-native-webview': '13.15.0',
+  'react-native-worklets': '0.5.1',
+  '@types/react': '~19.1.0',
+  eslint: '^9.25.0',
+  'eslint-config-expo': '~10.0.0',
+  typescript: '~5.9.2'
+}
+2025-11-06T13:41:36.346Z expo:doctor:dependencies:validate Comparing known versions: [
+  '@expo/vector-icons',
+  '@react-native-async-storage/async-storage',
+  'expo',
+  'expo-constants',
+  'expo-font',
+  'expo-haptics',
+  'expo-image',
+  'expo-linear-gradient',
+  'expo-linking',
+  'expo-network',
+  'expo-router',
+  'expo-splash-screen',
+  'expo-status-bar',
+  'expo-symbols',
+  'expo-system-ui',
+  'expo-web-browser',
+  'react',
+  'react-dom',
+  'react-native',
+  'react-native-gesture-handler',
+  'react-native-reanimated',
+  'react-native-safe-area-context',
+  'react-native-screens',
+  'react-native-web',
+  'react-native-webview',
+  'react-native-worklets',
+  '@types/react',
+  'eslint-config-expo',
+  'typescript'
+]
+2025-11-06T13:41:36.346Z expo:doctor:dependencies:validate Skipping packages that cannot be versioned automatically: [
+  '@react-navigation/bottom-tabs',
+  '@react-navigation/elements',
+  '@react-navigation/native',
+  'eslint'
+]
+2025-11-06T13:41:36.354Z expo:doctor:dependencies:validate Package versions: {
+  '@expo/vector-icons': '15.0.3',
+  '@react-native-async-storage/async-storage': '2.2.0',
+  expo: '54.0.22',
+  'expo-constants': '18.0.10',
+  'expo-font': '14.0.9',
+  'expo-haptics': '15.0.7',
+  'expo-image': '3.0.10',
+  'expo-linear-gradient': '15.0.7',
+  'expo-linking': '8.0.8',
+  'expo-network': '8.0.7',
+  'expo-router': '6.0.14',
+  'expo-splash-screen': '31.0.10',
+  'expo-status-bar': '3.0.8',
+  'expo-symbols': '1.0.7',
+  'expo-system-ui': '6.0.8',
+  'expo-web-browser': '15.0.9',
+  react: '19.1.0',
+  'react-dom': '19.1.0',
+  'react-native': '0.81.5',
+  'react-native-gesture-handler': '2.28.0',
+  'react-native-reanimated': '4.1.3',
+  'react-native-safe-area-context': '5.6.2',
+  'react-native-screens': '4.16.0',
+  'react-native-web': '0.21.2',
+  'react-native-webview': '13.15.0',
+  'react-native-worklets': '0.5.1',
+  '@types/react': '19.1.17',
+  'eslint-config-expo': '10.0.0',
+  typescript: '5.9.3'
+}
+2025-11-06T13:41:36.356Z expo:doctor:dependencies:validate Incorrect dependencies: []
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+2025-11-06T13:42:36.978Z expo:start:server:middleware:serveStatic Maybe serve static: /
+2025-11-06T13:42:37.001Z expo:start:server:metro manifest {
+  apiRoutes: [],
+  htmlRoutes: [
+    {
+      file: './tabs_disabled/index.tsx',
+      page: '/tabs_disabled/index',
+      namedRegex: /^\/tabs_disabled(?:\/)?$/,
+      routeKeys: {}
+    },
+    {
+      file: './index.tsx',
+      page: '/index',
+      namedRegex: /^\/(?:\/)?$/,
+      routeKeys: {}
+    },
+    {
+      file: './web.tsx',
+      page: '/web',
+      namedRegex: /^\/web(?:\/)?$/,
+      routeKeys: {}
+    },
+    {
+      file: './modal.tsx',
+      page: '/modal',
+      namedRegex: /^\/modal(?:\/)?$/,
+      routeKeys: {}
+    },
+    {
+      file: './tabs_disabled/explore.tsx',
+      page: '/tabs_disabled/explore',
+      namedRegex: /^\/tabs_disabled\/explore(?:\/)?$/,
+      routeKeys: {}
+    },
+    {
+      file: 'expo-router/build/views/Sitemap.js',
+      page: '/_sitemap',
+      namedRegex: /^\/_sitemap(?:\/)?$/,
+      routeKeys: {},
+      generated: true
+    }
+  ],
+  notFoundRoutes: [
+    {
+      file: 'expo-router/build/views/Unmatched.js',
+      page: '/+not-found',
+      namedRegex: /^(?:\/(?<notfound>.+?))?(?:\/)?$/,
+      routeKeys: [Object],
+      generated: true
+    }
+  ],
+  redirects: [],
+  rewrites: [],
+  middleware: undefined
+}
+2025-11-06T13:42:37.015Z expo:start:server:middleware:manifest Resolved entry point: node_modules/expo-router/entry.js (project root: D:\Project\App\webview\riziq-app)
+2025-11-06T13:42:37.023Z expo:start:server:middleware:manifest Resolved entry point: node_modules/expo-router/entry.js (project root: D:\Project\App\webview\riziq-app)
+2025-11-06T13:42:37.027Z expo:start:server:metro:multi-platform Enabling alias: react-native-vector-icons -> @expo/vector-icons
+Web node_modules\expo-router\entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+| 2025-11-06T13:42:37.786Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:37.867Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:42:37.942Z expo:babel:exports Found assignment to module.exports or exports at 4
+2025-11-06T13:42:37.950Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-jsx-dev-runtime.production.js
+| 2025-11-06T13:42:37.975Z expo:babel:router routerEntry D:\Project\App\webview\riziq-app\node_modules\expo-router\entry.js D:\Project\App\webview\riziq-app\app ..\..\app
+2025-11-06T13:42:38.037Z expo:start:server:metro:multi-platform Redirecting module "D:\Project\App\webview\riziq-app\node_modules\react-native-web\dist\exports\BackHandler\index.js" to shim
+| 2025-11-06T13:42:38.017Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:38.205Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:38.243Z expo:babel:exports Found assignment to module.exports or exports at 9
+| 2025-11-06T13:42:38.289Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:38.390Z expo:babel:exports Found assignment to module.exports or exports at 325
+| 2025-11-06T13:42:38.519Z expo:babel:exports Found assignment to module.exports or exports at 26
+| 2025-11-06T13:42:39.256Z expo:babel:exports Found assignment to module.exports or exports at 10
+| 2025-11-06T13:42:39.302Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:39.465Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:39.498Z expo:babel:exports Found assignment to module.exports or exports at 12
+2025-11-06T13:42:39.592Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-dom-server-legacy.node.production.js
+2025-11-06T13:42:39.592Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-dom-server.node.production.js
+2025-11-06T13:42:39.610Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react.production.js
+| 2025-11-06T13:42:39.631Z expo:babel:router routerEntry D:\Project\App\webview\riziq-app\node_modules\expo-router\entry.js D:\Project\App\webview\riziq-app\app ..\..\app
+| 2025-11-06T13:42:39.653Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:39.656Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:39.665Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:39.670Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:39.692Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:39.697Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:42:39.701Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:39.706Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:39.710Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:39.723Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:39.735Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:39.735Z expo:babel:exports Found assignment to module.exports or exports at 6
+2025-11-06T13:42:39.803Z expo:start:server:metro:multi-platform Virtualizing Node.js "tty"
+2025-11-06T13:42:39.804Z expo:start:server:metro:multi-platform Virtualizing Node.js "util"
+| 2025-11-06T13:42:39.747Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:39.749Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:39.760Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:39.761Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:42:39.773Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:42:39.780Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:39.830Z expo:babel:exports Found assignment to module.exports or exports at 8
+2025-11-06T13:42:39.901Z expo:metro:tsconfig-paths @/components/themed-text -> D:\Project\App\webview\riziq-app\components\themed-text
+2025-11-06T13:42:39.902Z expo:metro:tsconfig-paths @/components/themed-view -> D:\Project\App\webview\riziq-app\components\themed-view
+| 2025-11-06T13:42:39.845Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:39.849Z expo:babel:router routerEntry D:\Project\App\webview\riziq-app\node_modules\expo-router\entry.js D:\Project\App\webview\riziq-app\app ..\..\app
+| 2025-11-06T13:42:39.860Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:39.881Z expo:babel:exports Found assignment to module.exports or exports at 35
+| 2025-11-06T13:42:39.883Z expo:babel:exports Found assignment to module.exports or exports at 461
+2025-11-06T13:42:39.968Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-dom-client.production.js
+2025-11-06T13:42:40.018Z expo:metro:tsconfig-paths @/components/haptic-tab -> D:\Project\App\webview\riziq-app\components\haptic-tab
+2025-11-06T13:42:40.019Z expo:metro:tsconfig-paths @/components/ui/icon-symbol -> D:\Project\App\webview\riziq-app\components\ui\icon-symbol
+2025-11-06T13:42:40.019Z expo:metro:tsconfig-paths @/constants/theme -> D:\Project\App\webview\riziq-app\constants\theme
+2025-11-06T13:42:40.019Z expo:metro:tsconfig-paths @/hooks/use-color-scheme -> D:\Project\App\webview\riziq-app\hooks\use-color-scheme
+2025-11-06T13:42:40.053Z expo:metro:tsconfig-paths @/components/ui/collapsible -> D:\Project\App\webview\riziq-app\components\ui\collapsible
+2025-11-06T13:42:40.054Z expo:metro:tsconfig-paths @/components/external-link -> D:\Project\App\webview\riziq-app\components\external-link
+2025-11-06T13:42:40.054Z expo:metro:tsconfig-paths @/components/parallax-scroll-view -> D:\Project\App\webview\riziq-app\components\parallax-scroll-view
+2025-11-06T13:42:40.054Z expo:metro:tsconfig-paths @/components/themed-text -> D:\Project\App\webview\riziq-app\components\themed-text
+2025-11-06T13:42:40.054Z expo:metro:tsconfig-paths @/components/themed-view -> D:\Project\App\webview\riziq-app\components\themed-view
+2025-11-06T13:42:40.058Z expo:metro:tsconfig-paths @/assets/images/react-logo.png -> D:\Project\App\webview\riziq-app\assets\images\react-logo.png
+| 2025-11-06T13:42:40.023Z expo:babel:exports Found assignment to module.exports or exports at 52
+2025-11-06T13:42:40.165Z expo:start:server:metro:multi-platform Redirecting module "D:\Project\App\webview\riziq-app\node_modules\react-native-web\dist\exports\AppRegistry\AppContainer.js" to shim
+2025-11-06T13:42:40.172Z expo:metro:tsconfig-paths @/components/hello-wave -> D:\Project\App\webview\riziq-app\components\hello-wave
+2025-11-06T13:42:40.173Z expo:metro:tsconfig-paths @/assets/images/partial-react-logo.png -> D:\Project\App\webview\riziq-app\assets\images\partial-react-logo.png
+| 2025-11-06T13:42:40.050Z expo:babel:exports Found assignment to module.exports or exports at 23
+| 2025-11-06T13:42:40.168Z expo:babel:exports Found assignment to module.exports or exports at 10
+| 2025-11-06T13:42:40.172Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:40.195Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:40.231Z expo:babel:exports Found assignment to module.exports or exports at 2
+| 2025-11-06T13:42:40.234Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:40.366Z expo:babel:exports Found assignment to module.exports or exports at 4
+2025-11-06T13:42:40.400Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-jsx-dev-runtime.production.js
+2025-11-06T13:42:40.426Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react.production.js
+| 2025-11-06T13:42:40.381Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:40.388Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:40.390Z expo:babel:router routerEntry D:\Project\App\webview\riziq-app\node_modules\expo-router\entry.js D:\Project\App\webview\riziq-app\app ..\..\app
+Web node_modules\expo-router\entry.js ▓▓▓▓▓░░░░░░░░░░░ 31.4% (14/25)
+λ node_modules\expo-router\node\render.js ▓▓▓▓░░░░░░░░░░░░ 28.5% (164/307)
+| 2025-11-06T13:42:40.496Z expo:babel:exports Found assignment to module.exports or exports at 37
+2025-11-06T13:42:40.644Z expo:start:server:metro:multi-platform Redirecting module "D:\Project\App\webview\riziq-app\node_modules\react-native-web\dist\exports\BackHandler\index.js" to shim
+| 2025-11-06T13:42:40.736Z expo:babel:exports Found assignment to module.exports or exports at 54
+| 2025-11-06T13:42:40.907Z expo:babel:exports Found assignment to module.exports or exports at 16
+| 2025-11-06T13:42:40.924Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:40.956Z expo:babel:exports Found assignment to module.exports or exports at 739
+| 2025-11-06T13:42:40.968Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:40.979Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:40.981Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:40.984Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:40.995Z expo:babel:exports Found assignment to module.exports or exports at 292
+| 2025-11-06T13:42:41.050Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.075Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:41.078Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:41.078Z expo:babel:exports Found assignment to module.exports or exports at 38
+| 2025-11-06T13:42:41.078Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.091Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:41.092Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:41.116Z expo:babel:exports Found assignment to module.exports or exports at 3
+2025-11-06T13:42:41.153Z expo:start:server:metro:multi-platform Virtualizing Node.js "os"
+2025-11-06T13:42:41.154Z expo:start:server:metro:multi-platform Virtualizing Node.js "tty"
+| 2025-11-06T13:42:41.118Z expo:babel:exports Found assignment to module.exports or exports at 131
+| 2025-11-06T13:42:41.129Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:41.162Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.163Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:42:41.186Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:41.189Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:41.209Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.217Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:41.240Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.246Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.278Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.288Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.288Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:41.292Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:42:41.310Z expo:babel:exports Found assignment to module.exports or exports at 17
+| 2025-11-06T13:42:41.313Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:41.320Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.352Z expo:babel:exports Found assignment to module.exports or exports at 40
+2025-11-06T13:42:41.473Z expo:metro:tsconfig-paths @/hooks/use-theme-color -> D:\Project\App\webview\riziq-app\hooks\use-theme-color
+2025-11-06T13:42:41.535Z expo:start:server:metro:multi-platform Redirecting module "D:\Project\App\webview\riziq-app\node_modules\react-native-web\dist\exports\BackHandler\index.js" to shim
+2025-11-06T13:42:41.582Z expo:metro:tsconfig-paths @/components/themed-text -> D:\Project\App\webview\riziq-app\components\themed-text
+2025-11-06T13:42:41.582Z expo:metro:tsconfig-paths @/components/themed-view -> D:\Project\App\webview\riziq-app\components\themed-view
+2025-11-06T13:42:41.583Z expo:metro:tsconfig-paths @/components/ui/icon-symbol -> D:\Project\App\webview\riziq-app\components\ui\icon-symbol
+2025-11-06T13:42:41.583Z expo:metro:tsconfig-paths @/constants/theme -> D:\Project\App\webview\riziq-app\constants\theme
+2025-11-06T13:42:41.583Z expo:metro:tsconfig-paths @/hooks/use-color-scheme -> D:\Project\App\webview\riziq-app\hooks\use-color-scheme
+| 2025-11-06T13:42:41.568Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.576Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.588Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:42:41.611Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:41.619Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.625Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.630Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:41.637Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:41.648Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:41.647Z expo:babel:exports Found assignment to module.exports or exports at 3
+2025-11-06T13:42:41.749Z expo:metro:tsconfig-paths @/components/themed-view -> D:\Project\App\webview\riziq-app\components\themed-view
+2025-11-06T13:42:41.750Z expo:metro:tsconfig-paths @/hooks/use-color-scheme -> D:\Project\App\webview\riziq-app\hooks\use-color-scheme
+| 2025-11-06T13:42:41.731Z expo:babel:exports Found assignment to module.exports or exports at 10
+| 2025-11-06T13:42:41.758Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:42:41.788Z expo:babel:exports Found assignment to module.exports or exports at 28
+2025-11-06T13:42:41.838Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-dom.production.js
+| 2025-11-06T13:42:41.789Z expo:babel:exports Found assignment to module.exports or exports at 35
+| 2025-11-06T13:42:41.792Z expo:babel:exports Found assignment to module.exports or exports at 14
+| 2025-11-06T13:42:41.825Z expo:babel:exports Found assignment to module.exports or exports at 9018
+| 2025-11-06T13:42:41.848Z expo:babel:exports Found assignment to module.exports or exports at 9226
+| 2025-11-06T13:42:41.925Z expo:babel:exports Found assignment to module.exports or exports at 325
+| 2025-11-06T13:42:42.090Z expo:babel:exports Found assignment to module.exports or exports at 739
+| 2025-11-06T13:42:42.094Z expo:babel:exports Found assignment to module.exports or exports at 53
+| 2025-11-06T13:42:42.108Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:42.282Z expo:babel:exports Found assignment to module.exports or exports at 4
+2025-11-06T13:42:42.303Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-jsx-runtime.production.js
+| 2025-11-06T13:42:42.334Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:42.341Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:42.353Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:42.364Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:42.378Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:42.398Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:42:42.416Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:42.420Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:42.441Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:42.498Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:42.553Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:42.556Z expo:babel:router routerEntry D:\Project\App\webview\riziq-app\node_modules\expo-router\entry.js D:\Project\App\webview\riziq-app\app ..\..\app
+| 2025-11-06T13:42:42.556Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:42.586Z expo:babel:exports Found assignment to module.exports or exports at 26
+2025-11-06T13:42:42.871Z expo:start:server:metro:multi-platform Virtualizing Node.js "util"
+2025-11-06T13:42:42.872Z expo:start:server:metro:multi-platform Virtualizing Node.js "crypto"
+2025-11-06T13:42:42.872Z expo:start:server:metro:multi-platform Virtualizing Node.js "async_hooks"
+2025-11-06T13:42:42.874Z expo:start:server:metro:multi-platform Virtualizing Node.js "stream"
+| 2025-11-06T13:42:42.897Z expo:babel:exports Found assignment to module.exports or exports at 38
+| 2025-11-06T13:42:42.979Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:42.982Z expo:babel:exports Found assignment to module.exports or exports at 26
+| 2025-11-06T13:42:42.988Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:42.994Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:43.011Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:43.021Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:43.027Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:43.031Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:43.067Z expo:babel:exports Found assignment to module.exports or exports at 3
+2025-11-06T13:42:43.140Z expo:start:server:metro:multi-platform Using React Navigation's web modal implementation.
+| 2025-11-06T13:42:43.072Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:43.088Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:43.091Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:43.132Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:43.144Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:43.147Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:43.154Z expo:babel:exports Found assignment to module.exports or exports at 19
+| 2025-11-06T13:42:43.154Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:43.172Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:43.187Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:43.270Z expo:babel:exports Found assignment to module.exports or exports at 12
+2025-11-06T13:42:43.323Z expo:metro:tsconfig-paths @/constants/theme -> D:\Project\App\webview\riziq-app\constants\theme
+2025-11-06T13:42:43.324Z expo:metro:tsconfig-paths @/hooks/use-color-scheme -> D:\Project\App\webview\riziq-app\hooks\use-color-scheme
+| 2025-11-06T13:42:43.312Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:43.316Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:43.324Z expo:babel:exports Found assignment to module.exports or exports at 51
+| 2025-11-06T13:42:43.332Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:43.338Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:43.340Z expo:babel:exports Found assignment to module.exports or exports at 123
+| 2025-11-06T13:42:43.351Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:43.371Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:43.379Z expo:prebuild-config:expo-splash-screen:ios config: {
+|   image: './assets/images/splash-icon.png',
+|   imageWidth: 200,
+|   resizeMode: 'contain',
+|   backgroundColor: '#ffffff',
+|   dark: { backgroundColor: '#000000' }
+| }
+| 2025-11-06T13:42:43.439Z expo:babel:inline-manifest public manifest {
+|   name: 'riziq-app',
+|   slug: 'riziq-app',
+|   version: '1.0.0',
+|   orientation: 'portrait',
+|   icon: './assets/images/icon.png',
+|   scheme: 'riziqapp',
+|   userInterfaceStyle: 'automatic',
+|   newArchEnabled: true,
+|   web: {
+|     output: 'static',
+|     favicon: './assets/images/favicon.png',
+|     meta: undefined,
+|     build: undefined,
+|     scope: undefined,
+|     crossorigin: undefined,
+|     description: undefined,
+|     startUrl: undefined,
+|     shortName: 'riziq-app',
+|     display: undefined,
+|     orientation: 'portrait',
+|     dir: undefined,
+|     barStyle: undefined,
+|     backgroundColor: undefined,
+|     themeColor: undefined,
+|     lang: undefined,
+|     name: 'riziq-app'
+|   },
+|   experiments: { typedRoutes: true, reactCompiler: true },
+|   description: undefined,
+|   sdkVersion: '54.0.0',
+|   platforms: [ 'ios', 'android', 'web' ],
+|   extra: { router: {} },
+|   primaryColor: undefined
+| }
+| 2025-11-06T13:42:43.463Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:43.513Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:43.522Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:43.524Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:43.533Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:42:43.550Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:43.582Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:43.637Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:43.670Z expo:babel:exports Found assignment to module.exports or exports at 15
+| 2025-11-06T13:42:43.676Z expo:babel:exports Found assignment to module.exports or exports at 48
+| 2025-11-06T13:42:43.691Z expo:babel:exports Found assignment to module.exports or exports at 48
+| 2025-11-06T13:42:43.736Z expo:babel:exports Found assignment to module.exports or exports at 117
+| 2025-11-06T13:42:43.830Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:43.834Z expo:metro-config:transform-worker Parsed client boundaries: []
+| 2025-11-06T13:42:43.842Z expo:babel:exports Found assignment to module.exports or exports at 2
+Web node_modules\expo-router\entry.js ▓▓▓▓▓░░░░░░░░░░░ 31.4% (103/254)
+λ node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓▓░░░░░░░ 56.8% (456/622)
+| 2025-11-06T13:42:44.204Z expo:babel:exports Found assignment to module.exports or exports at 325
+| 2025-11-06T13:42:44.204Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:44.364Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:44.397Z expo:babel:exports Found assignment to module.exports or exports at 52
+| 2025-11-06T13:42:44.420Z expo:babel:exports Found assignment to module.exports or exports at 3
+2025-11-06T13:42:44.492Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-dom-client.production.js
+| 2025-11-06T13:42:44.429Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:44.430Z expo:babel:exports Found assignment to module.exports or exports at 35
+| 2025-11-06T13:42:44.439Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:44.497Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:44.522Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:42:44.568Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:44.648Z expo:babel:exports Found assignment to module.exports or exports at 24876
+| 2025-11-06T13:42:44.649Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:44.653Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:44.789Z expo:babel:exports Found assignment to module.exports or exports at 34
+2025-11-06T13:42:44.827Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-is.production.js
+| 2025-11-06T13:42:44.812Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:44.836Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:44.841Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:44.849Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:44.855Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:44.863Z expo:babel:exports Found assignment to module.exports or exports at 360
+| 2025-11-06T13:42:44.866Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:44.894Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:44.939Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:42:44.990Z expo:babel:exports Found assignment to module.exports or exports at 140
+2025-11-06T13:42:45.208Z expo:metro:tsconfig-paths @/components/themed-text -> D:\Project\App\webview\riziq-app\components\themed-text
+2025-11-06T13:42:45.209Z expo:metro:tsconfig-paths @/components/themed-view -> D:\Project\App\webview\riziq-app\components\themed-view
+| 2025-11-06T13:42:45.238Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:45.237Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:45.238Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:45.257Z expo:babel:exports Found assignment to module.exports or exports at 51
+| 2025-11-06T13:42:45.298Z expo:babel:exports Found assignment to module.exports or exports at 9
+| 2025-11-06T13:42:45.306Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:45.320Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:42:45.322Z expo:babel:exports Found assignment to module.exports or exports at 461
+| 2025-11-06T13:42:45.348Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:45.357Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:45.383Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:45.393Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:42:45.399Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:45.403Z expo:babel:exports Found assignment to module.exports or exports at 39
+2025-11-06T13:42:45.492Z expo:metro:tsconfig-paths @/components/ui/collapsible -> D:\Project\App\webview\riziq-app\components\ui\collapsible
+2025-11-06T13:42:45.492Z expo:metro:tsconfig-paths @/components/external-link -> D:\Project\App\webview\riziq-app\components\external-link
+2025-11-06T13:42:45.493Z expo:metro:tsconfig-paths @/components/parallax-scroll-view -> D:\Project\App\webview\riziq-app\components\parallax-scroll-view
+2025-11-06T13:42:45.493Z expo:metro:tsconfig-paths @/components/themed-text -> D:\Project\App\webview\riziq-app\components\themed-text
+2025-11-06T13:42:45.493Z expo:metro:tsconfig-paths @/components/themed-view -> D:\Project\App\webview\riziq-app\components\themed-view
+2025-11-06T13:42:45.493Z expo:metro:tsconfig-paths @/components/ui/icon-symbol -> D:\Project\App\webview\riziq-app\components\ui\icon-symbol
+2025-11-06T13:42:45.493Z expo:metro:tsconfig-paths @/constants/theme -> D:\Project\App\webview\riziq-app\constants\theme
+2025-11-06T13:42:45.494Z expo:metro:tsconfig-paths @/assets/images/react-logo.png -> D:\Project\App\webview\riziq-app\assets\images\react-logo.png
+| 2025-11-06T13:42:45.454Z expo:babel:exports Found assignment to module.exports or exports at 9
+2025-11-06T13:42:45.573Z expo:metro:tsconfig-paths @/components/hello-wave -> D:\Project\App\webview\riziq-app\components\hello-wave
+2025-11-06T13:42:45.575Z expo:metro:tsconfig-paths @/assets/images/partial-react-logo.png -> D:\Project\App\webview\riziq-app\assets\images\partial-react-logo.png
+| 2025-11-06T13:42:45.461Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:45.562Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:45.583Z expo:babel:exports Found assignment to module.exports or exports at 3
+2025-11-06T13:42:45.684Z expo:metro:tsconfig-paths @/components/haptic-tab -> D:\Project\App\webview\riziq-app\components\haptic-tab
+2025-11-06T13:42:45.684Z expo:metro:tsconfig-paths @/hooks/use-color-scheme -> D:\Project\App\webview\riziq-app\hooks\use-color-scheme
+| 2025-11-06T13:42:45.759Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:45.771Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:45.786Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:45.788Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:45.791Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:42:45.791Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:45.792Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:45.793Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:42:45.799Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:46.124Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:46.144Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.153Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.157Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.161Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.200Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.209Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.217Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.236Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.271Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.288Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:46.479Z expo:babel:exports Found assignment to module.exports or exports at 49
+| 2025-11-06T13:42:46.575Z expo:babel:exports Found assignment to module.exports or exports at 4
+2025-11-06T13:42:46.582Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-jsx-runtime.production.js
+| 2025-11-06T13:42:46.895Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:46.997Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:47.149Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.240Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.266Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:47.312Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.358Z expo:babel:exports Found assignment to module.exports or exports at 59
+| 2025-11-06T13:42:47.375Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:47.387Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.400Z expo:babel:exports Found assignment to module.exports or exports at 22
+| 2025-11-06T13:42:47.404Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:42:47.406Z expo:babel:exports Found assignment to module.exports or exports at 2
+| 2025-11-06T13:42:47.425Z expo:babel:exports Found assignment to module.exports or exports at 80
+| 2025-11-06T13:42:47.426Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.434Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:47.431Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:47.450Z expo:babel:exports Found assignment to module.exports or exports at 2
+| 2025-11-06T13:42:47.482Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:42:47.518Z expo:babel:inline-manifest public manifest {
+Web node_modules\expo-router\entry.js ▓▓▓▓▓░░░░░░░░░░░ 36.6% (286/473)
+λ node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 70.7% (666/814)
+|   name: 'riziq-app',
+|   slug: 'riziq-app',
+|   version: '1.0.0',
+|   orientation: 'portrait',
+|   icon: './assets/images/icon.png',
+|   scheme: 'riziqapp',
+|   userInterfaceStyle: 'automatic',
+|   newArchEnabled: true,
+|   web: {
+|     output: 'static',
+|     favicon: './assets/images/favicon.png',
+|     meta: undefined,
+|     build: undefined,
+|     scope: undefined,
+|     crossorigin: undefined,
+|     description: undefined,
+|     startUrl: undefined,
+|     shortName: 'riziq-app',
+|     display: undefined,
+|     orientation: 'portrait',
+|     dir: undefined,
+|     barStyle: undefined,
+|     backgroundColor: undefined,
+|     themeColor: undefined,
+|     lang: undefined,
+|     name: 'riziq-app'
+|   },
+|   experiments: { typedRoutes: true, reactCompiler: true },
+|   description: undefined,
+|   sdkVersion: '54.0.0',
+|   platforms: [ 'ios', 'android', 'web' ],
+|   extra: { router: {} },
+|   primaryColor: undefined
+| }
+| 2025-11-06T13:42:47.545Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.568Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:42:47.615Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.837Z expo:babel:exports Found assignment to module.exports or exports at 11
+2025-11-06T13:42:47.897Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-compiler-runtime.production.js
+| 2025-11-06T13:42:47.901Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:42:47.914Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:47.930Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:47.933Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.941Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.955Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.956Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:47.961Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:47.969Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:48.002Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:48.004Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:48.019Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:48.020Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:48.067Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:48.076Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:48.107Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:48.117Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:48.138Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:48.224Z expo:babel:exports Found assignment to module.exports or exports at 496
+| 2025-11-06T13:42:48.242Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:48.259Z expo:babel:exports Found assignment to module.exports or exports at 7
+2025-11-06T13:42:48.316Z expo:metro:tsconfig-paths @/hooks/use-theme-color -> D:\Project\App\webview\riziq-app\hooks\use-theme-color
+| 2025-11-06T13:42:48.325Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:48.331Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:48.330Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:48.337Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:42:48.341Z expo:babel:exports Found assignment to module.exports or exports at 38
+| 2025-11-06T13:42:48.354Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:48.361Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:48.365Z expo:babel:exports Found assignment to module.exports or exports at 123
+2025-11-06T13:42:48.407Z expo:metro:tsconfig-paths @/components/themed-text -> D:\Project\App\webview\riziq-app\components\themed-text
+2025-11-06T13:42:48.408Z expo:metro:tsconfig-paths @/components/themed-view -> D:\Project\App\webview\riziq-app\components\themed-view
+2025-11-06T13:42:48.408Z expo:metro:tsconfig-paths @/components/ui/icon-symbol -> D:\Project\App\webview\riziq-app\components\ui\icon-symbol
+2025-11-06T13:42:48.408Z expo:metro:tsconfig-paths @/constants/theme -> D:\Project\App\webview\riziq-app\constants\theme
+2025-11-06T13:42:48.408Z expo:metro:tsconfig-paths @/hooks/use-color-scheme -> D:\Project\App\webview\riziq-app\hooks\use-color-scheme
+| 2025-11-06T13:42:48.409Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:48.458Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:48.520Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:49.249Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:49.278Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:49.285Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:49.297Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:49.558Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:49.575Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:49.621Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:49.681Z expo:babel:exports Found assignment to module.exports or exports at 4
+2025-11-06T13:42:49.689Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/scheduler.production.js
+2025-11-06T13:42:49.714Z expo:metro:tsconfig-paths @/components/themed-view -> D:\Project\App\webview\riziq-app\components\themed-view
+2025-11-06T13:42:49.715Z expo:metro:tsconfig-paths @/hooks/use-color-scheme -> D:\Project\App\webview\riziq-app\hooks\use-color-scheme
+| 2025-11-06T13:42:49.704Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:42:49.761Z expo:babel:exports Found assignment to module.exports or exports at 325
+| 2025-11-06T13:42:49.764Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:49.778Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:49.788Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:49.813Z expo:babel:exports Found assignment to module.exports or exports at 16
+2025-11-06T13:42:49.849Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-is.production.js
+| 2025-11-06T13:42:49.833Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:49.836Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:49.870Z expo:babel:exports Found assignment to module.exports or exports at 360
+| 2025-11-06T13:42:49.881Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:49.882Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:49.934Z expo:babel:exports Found assignment to module.exports or exports at 154
+| 2025-11-06T13:42:49.948Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:49.989Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:50.008Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:50.033Z expo:babel:exports Found assignment to module.exports or exports at 81
+| 2025-11-06T13:42:50.070Z expo:babel:exports Found assignment to module.exports or exports at 15
+| 2025-11-06T13:42:50.072Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:42:50.107Z expo:babel:exports Found assignment to module.exports or exports at 36
+2025-11-06T13:42:50.144Z expo:start:server:metro:multi-platform Redirecting module "D:\Project\App\webview\riziq-app\node_modules\react-native-web\dist\exports\AppRegistry\AppContainer.js" to shim
+| 2025-11-06T13:42:50.121Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:50.347Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:50.397Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:50.398Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:50.430Z expo:babel:exports Found assignment to module.exports or exports at 140
+| 2025-11-06T13:42:50.450Z expo:babel:exports Found assignment to module.exports or exports at 3
+2025-11-06T13:42:50.498Z expo:metro:tsconfig-paths @/constants/theme -> D:\Project\App\webview\riziq-app\constants\theme
+2025-11-06T13:42:50.498Z expo:metro:tsconfig-paths @/hooks/use-color-scheme -> D:\Project\App\webview\riziq-app\hooks\use-color-scheme
+| 2025-11-06T13:42:50.488Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:50.567Z expo:babel:exports Found assignment to module.exports or exports at 54
+| 2025-11-06T13:42:50.606Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:50.630Z expo:babel:exports Found assignment to module.exports or exports at 9
+| 2025-11-06T13:42:50.631Z expo:babel:exports Found assignment to module.exports or exports at 14
+| 2025-11-06T13:42:50.649Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:50.680Z expo:babel:exports Found assignment to module.exports or exports at 4
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 70.4% (510/608)
+λ node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 83.9% (894/976)
+| 2025-11-06T13:42:51.328Z expo:babel:exports Found assignment to module.exports or exports at 21
+| 2025-11-06T13:42:51.328Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.329Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.334Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.335Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.340Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.365Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.365Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.365Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.369Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.388Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:51.495Z expo:babel:exports Found assignment to module.exports or exports at 625
+| 2025-11-06T13:42:51.591Z expo:babel:exports Found assignment to module.exports or exports at 182
+| 2025-11-06T13:42:51.614Z expo:babel:exports Found assignment to module.exports or exports at 625
+| 2025-11-06T13:42:51.637Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:42:51.654Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:51.663Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:51.684Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:51.711Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:42:51.720Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:51.730Z expo:babel:exports Found assignment to module.exports or exports at 20
+| 2025-11-06T13:42:51.763Z expo:babel:exports Found assignment to module.exports or exports at 59
+| 2025-11-06T13:42:51.770Z expo:babel:exports Found assignment to module.exports or exports at 78
+| 2025-11-06T13:42:51.781Z expo:babel:exports Found assignment to module.exports or exports at 22
+| 2025-11-06T13:42:51.803Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:42:51.823Z expo:babel:exports Found assignment to module.exports or exports at 2
+| 2025-11-06T13:42:51.850Z expo:babel:exports Found assignment to module.exports or exports at 2
+| 2025-11-06T13:42:51.853Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:51.869Z expo:babel:exports Found assignment to module.exports or exports at 80
+| 2025-11-06T13:42:51.905Z expo:babel:exports Found assignment to module.exports or exports at 32
+| 2025-11-06T13:42:51.908Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:51.910Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:51.919Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:51.951Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:52.048Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:52.268Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.360Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:52.477Z expo:babel:exports Found assignment to module.exports or exports at 28
+2025-11-06T13:42:52.504Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-refresh-runtime.production.min.js
+| 2025-11-06T13:42:52.496Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:52.522Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:52.541Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.596Z expo:babel:exports Found assignment to module.exports or exports at 38
+| 2025-11-06T13:42:52.609Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:52.615Z expo:babel:exports Found assignment to module.exports or exports at 63
+| 2025-11-06T13:42:52.618Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:52.661Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.686Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.689Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.691Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:52.713Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:42:52.717Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.718Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.717Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:52.721Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.734Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.735Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:52.739Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.742Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.748Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.759Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.769Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.772Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.776Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.777Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.786Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.786Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.793Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:52.825Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:53.476Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:53.500Z expo:babel:exports Found assignment to module.exports or exports at 48
+| 2025-11-06T13:42:53.520Z expo:babel:exports Found assignment to module.exports or exports at 645
+| 2025-11-06T13:42:53.538Z expo:babel:exports Found assignment to module.exports or exports at 160
+| 2025-11-06T13:42:53.549Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.583Z expo:babel:exports Found assignment to module.exports or exports at 48
+| 2025-11-06T13:42:53.585Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.602Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.609Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.622Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.625Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.630Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.631Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.666Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:42:53.677Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:53.782Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:53.793Z expo:babel:exports Found assignment to module.exports or exports at 4
+2025-11-06T13:42:53.807Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-refresh-runtime.production.min.js
+| 2025-11-06T13:42:53.815Z expo:babel:exports Found assignment to module.exports or exports at 18
+| 2025-11-06T13:42:53.867Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.869Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:53.880Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:42:54.169Z expo:babel:exports Found assignment to module.exports or exports at 15
+2025-11-06T13:42:54.277Z expo:start:server:metro:multi-platform Redirecting module "D:\Project\App\webview\riziq-app\node_modules\react-native-web\dist\exports\BackHandler\index.js" to shim
+| 2025-11-06T13:42:54.527Z expo:babel:exports Found assignment to module.exports or exports at 182
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓░░░░ 76.2% (804/921)
+λ node_modules\expo-router\node\render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 95.8% (1061/1084)
+| 2025-11-06T13:42:54.580Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:54.607Z expo:babel:exports Found assignment to module.exports or exports at 4
+2025-11-06T13:42:54.652Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-is.production.min.js
+| 2025-11-06T13:42:54.896Z expo:babel:exports Found assignment to module.exports or exports at 6
+2025-11-06T13:42:54.932Z expo:start:server:metro:multi-platform Redirecting module "D:\Project\App\webview\riziq-app\node_modules\react-native-web\dist\exports\BackHandler\index.js" to shim
+| 2025-11-06T13:42:54.966Z expo:babel:exports Found assignment to module.exports or exports at 18
+| 2025-11-06T13:42:54.982Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.008Z expo:babel:exports Found assignment to module.exports or exports at 215
+| 2025-11-06T13:42:55.060Z expo:babel:exports Found assignment to module.exports or exports at 24876
+| 2025-11-06T13:42:55.087Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.114Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.208Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.227Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.236Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.258Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.277Z expo:babel:exports Found assignment to module.exports or exports at 496
+| 2025-11-06T13:42:55.357Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:55.358Z expo:babel:exports Found assignment to module.exports or exports at 20
+| 2025-11-06T13:42:55.391Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.406Z expo:babel:exports Found assignment to module.exports or exports at 192
+| 2025-11-06T13:42:55.440Z expo:babel:exports Found assignment to module.exports or exports at 645
+| 2025-11-06T13:42:55.510Z expo:babel:exports Found assignment to module.exports or exports at 140
+| 2025-11-06T13:42:55.556Z expo:babel:exports Found assignment to module.exports or exports at 319
+| 2025-11-06T13:42:55.585Z expo:babel:exports Found assignment to module.exports or exports at 42
+| 2025-11-06T13:42:55.586Z expo:babel:exports Found assignment to module.exports or exports at 17
+| 2025-11-06T13:42:55.597Z expo:babel:exports Found assignment to module.exports or exports at 11
+| 2025-11-06T13:42:55.602Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:42:55.605Z expo:babel:exports Found assignment to exports at 9
+| 2025-11-06T13:42:55.608Z expo:babel:exports Found assignment to module.exports or exports at 136
+| 2025-11-06T13:42:55.613Z expo:babel:exports Found assignment to module.exports or exports at 18
+| 2025-11-06T13:42:55.709Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.713Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.713Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.732Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.736Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.743Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.781Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.783Z expo:babel:exports Found assignment to module.exports or exports at 81
+| 2025-11-06T13:42:55.798Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.827Z expo:babel:exports Found assignment to module.exports or exports at 15
+| 2025-11-06T13:42:55.915Z expo:babel:exports Found assignment to module.exports or exports at 22
+| 2025-11-06T13:42:55.919Z expo:babel:exports Found assignment to module.exports or exports at 54
+| 2025-11-06T13:42:55.978Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.990Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:55.997Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:56.016Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:56.031Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:42:56.046Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:42:56.047Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:42:56.055Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:42:56.056Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:42:56.057Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:42:56.073Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:42:56.089Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:56.109Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:56.149Z expo:babel:exports Found assignment to module.exports or exports at 6
+2025-11-06T13:42:56.186Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-is.production.min.js
+| 2025-11-06T13:42:56.150Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:42:56.164Z expo:babel:exports Found assignment to module.exports or exports at 32
+| 2025-11-06T13:42:56.172Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:56.180Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:42:56.183Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:42:56.216Z expo:babel:exports Found assignment to module.exports or exports at 192
+| 2025-11-06T13:42:56.245Z expo:babel:exports Found assignment to module.exports or exports at 160
+| 2025-11-06T13:42:56.285Z expo:babel:exports Found assignment to module.exports or exports at 182
+| 2025-11-06T13:42:56.416Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:56.451Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:42:56.464Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:42:56.578Z expo:babel:exports Found assignment to module.exports or exports at 154
+| 2025-11-06T13:42:57.566Z expo:babel:exports Found assignment to module.exports or exports at 78
+2025-11-06T13:42:57.678Z expo:metro-config:serializer:env-var Stripping environment variable polyfill in server environment.
+2025-11-06T13:42:57.678Z expo:metro-config:serializer:env-var Skipping environment variable inlining in Node.js environment.
+λ Bundled 20694ms node_modules\expo-router\node\render.js (1175 modules)
+| 2025-11-06T13:42:57.945Z expo:babel:exports Found assignment to module.exports or exports at 17
+| 2025-11-06T13:42:57.993Z expo:babel:exports Found assignment to module.exports or exports at 4
+2025-11-06T13:42:58.051Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/scheduler.production.js
+2025-11-06T13:42:58.053Z expo:start:server:metro:multi-platform Skipping production module: ./cjs/react-dom.production.js
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 93.0% (1056/1101)
+| 2025-11-06T13:42:57.995Z expo:babel:exports Found assignment to module.exports or exports at 35
+| 2025-11-06T13:42:57.996Z expo:babel:exports Found assignment to module.exports or exports at 63
+| 2025-11-06T13:42:59.098Z expo:babel:exports Found assignment to module.exports or exports at 6
+2025-11-06T13:42:59.574Z expo:start:server:metro:multi-platform Using React Navigation's web modal implementation.
+2025-11-06T13:43:04.275Z expo:start:server:metro Registering SSR source map for: D:/Project/App/webview/riziq-app/node_modules/expo-router/node/render.js.bundle?platform=web&dev=true&hot=false&transform.engine=hermes&transform.routerRoot=app&resolver.environment=node&transform.environment=node&unstable_transformProfile=hermes-stable
+2025-11-06T13:43:04.483Z expo:router:renderStaticContent Pushing static fonts: (count: 0) []
+| 2025-11-06T13:42:59.207Z expo:babel:exports Found assignment to module.exports or exports at 3
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 93.0% (1068/1114)
+| 2025-11-06T13:42:59.590Z expo:babel:exports Found assignment to module.exports or exports at 182
+| 2025-11-06T13:43:04.504Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:04.550Z expo:babel:exports Found assignment to module.exports or exports at 117
+| 2025-11-06T13:43:04.582Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:43:04.661Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:43:04.670Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:04.673Z expo:babel:exports Found assignment to module.exports or exports at 18
+| 2025-11-06T13:43:04.683Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:04.700Z expo:babel:exports Found assignment to module.exports or exports at 319
+| 2025-11-06T13:43:04.732Z expo:babel:exports Found assignment to module.exports or exports at 11
+| 2025-11-06T13:43:04.734Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:43:04.734Z expo:babel:exports Found assignment to module.exports or exports at 22
+| 2025-11-06T13:43:04.734Z expo:babel:exports Found assignment to module.exports or exports at 17
+| 2025-11-06T13:43:04.761Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:43:04.775Z expo:babel:exports Found assignment to exports at 9
+| 2025-11-06T13:43:04.833Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:04.845Z expo:babel:exports Found assignment to module.exports or exports at 51
+| 2025-11-06T13:43:04.854Z expo:babel:exports Found assignment to module.exports or exports at 215
+| 2025-11-06T13:43:04.855Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:04.876Z expo:babel:exports Found assignment to module.exports or exports at 42
+| 2025-11-06T13:43:04.886Z expo:babel:exports Found assignment to module.exports or exports at 136
+| 2025-11-06T13:43:04.898Z expo:babel:exports Found assignment to module.exports or exports at 54
+| 2025-11-06T13:43:04.911Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:04.912Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:04.913Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:04.916Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:04.917Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:04.920Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:04.924Z expo:babel:exports Found assignment to module.exports or exports at 7
+2025-11-06T13:43:04.987Z expo:metro-config:serializer:env-var Injecting environment variables in virtual module.
+Web Bundled 28006ms node_modules\expo-router\entry.js (1169 modules)
+2025-11-06T13:43:05.056Z expo:start:server:metro No SSR source map found for: D:/Project/App/webview/riziq-app/node_modules/expo-router/entry.js.bundle?platform=web&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.routerRoot=app&transform.reactCompiler=true&serializer.output=static&unstable_transformProfile=hermes-stable
+| 2025-11-06T13:43:05.376Z expo:babel:exports Found assignment to module.exports or exports at 10
+| 2025-11-06T13:43:05.378Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:05.391Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:05.409Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:05.433Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:05.435Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:43:05.440Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:05.470Z expo:babel:exports Found assignment to module.exports or exports at 325
+| 2025-11-06T13:43:05.551Z expo:babel:router routerEntry D:\Project\App\webview\riziq-app\node_modules\expo-router\entry.js D:\Project\App\webview\riziq-app\app ..\..\app
+| 2025-11-06T13:43:05.564Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:05.567Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:05.569Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:05.580Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:05.586Z expo:babel:exports Found assignment to module.exports or exports at 739
+| 2025-11-06T13:43:05.600Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:05.619Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:05.622Z expo:babel:router routerEntry D:\Project\App\webview\riziq-app\node_modules\expo-router\entry.js D:\Project\App\webview\riziq-app\app ..\..\app
+| 2025-11-06T13:43:05.624Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:43:05.651Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:43:05.701Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:43:05.727Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:43:05.762Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:05.782Z expo:babel:exports Found assignment to module.exports or exports at 52
+| 2025-11-06T13:43:05.785Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:05.912Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:05.936Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:05.941Z expo:babel:exports Found assignment to module.exports or exports at 10
+| 2025-11-06T13:43:05.942Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:05.963Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:05.967Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:05.970Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:05.977Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:05.986Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.008Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:43:06.021Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:06.022Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.063Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:06.093Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.129Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.131Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:06.143Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:06.161Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:43:06.198Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:06.222Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.222Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:06.245Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.294Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:06.297Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:43:06.321Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:06.323Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:06.339Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:43:06.343Z expo:babel:exports Found assignment to module.exports or exports at 35
+| 2025-11-06T13:43:06.350Z expo:babel:exports Found assignment to module.exports or exports at 49
+| 2025-11-06T13:43:06.386Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.417Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.427Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.440Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.444Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:43:06.463Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.507Z expo:babel:exports Found assignment to module.exports or exports at 123
+| 2025-11-06T13:43:06.682Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.704Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:06.709Z expo:babel:exports Found assignment to module.exports or exports at 26
+| 2025-11-06T13:43:06.740Z expo:babel:exports Found assignment to module.exports or exports at 325
+| 2025-11-06T13:43:06.741Z expo:babel:exports Found assignment to module.exports or exports at 14
+| 2025-11-06T13:43:06.809Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:06.882Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:06.897Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:06.900Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:43:06.986Z expo:babel:exports Found assignment to module.exports or exports at 54
+| 2025-11-06T13:43:07.045Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:43:07.119Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.139Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:07.145Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.183Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:43:07.206Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:43:07.286Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.294Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:43:07.297Z expo:babel:exports Found assignment to module.exports or exports at 461
+| 2025-11-06T13:43:07.314Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:07.316Z expo:babel:exports Found assignment to module.exports or exports at 360
+| 2025-11-06T13:43:07.317Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:07.318Z expo:babel:exports Found assignment to module.exports or exports at 38
+| 2025-11-06T13:43:07.360Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:07.380Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.384Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:07.397Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.396Z expo:babel:exports Found assignment to module.exports or exports at 2
+| 2025-11-06T13:43:07.409Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:07.411Z expo:babel:exports Found assignment to module.exports or exports at 9
+| 2025-11-06T13:43:07.413Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.434Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:07.455Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.467Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:07.501Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.509Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.575Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:07.593Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:07.625Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:43:07.679Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.706Z expo:babel:exports Found assignment to module.exports or exports at 40
+| 2025-11-06T13:43:07.745Z expo:babel:inline-manifest public manifest {
+|   name: 'riziq-app',
+|   slug: 'riziq-app',
+|   version: '1.0.0',
+|   orientation: 'portrait',
+|   icon: './assets/images/icon.png',
+|   scheme: 'riziqapp',
+|   userInterfaceStyle: 'automatic',
+|   newArchEnabled: true,
+|   web: {
+|     output: 'static',
+|     favicon: './assets/images/favicon.png',
+|     meta: undefined,
+|     build: undefined,
+|     scope: undefined,
+|     crossorigin: undefined,
+|     description: undefined,
+|     startUrl: undefined,
+|     shortName: 'riziq-app',
+|     display: undefined,
+|     orientation: 'portrait',
+|     dir: undefined,
+|     barStyle: undefined,
+|     backgroundColor: undefined,
+|     themeColor: undefined,
+|     lang: undefined,
+|     name: 'riziq-app'
+|   },
+|   experiments: { typedRoutes: true, reactCompiler: true },
+|   description: undefined,
+|   sdkVersion: '54.0.0',
+|   platforms: [ 'ios', 'android', 'web' ],
+|   extra: { router: {} },
+|   primaryColor: undefined
+| }
+| 2025-11-06T13:43:07.792Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:07.837Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.873Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:07.914Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:43:07.966Z expo:babel:exports Found assignment to module.exports or exports at 3
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 72.2% (476/560)
+| 2025-11-06T13:43:07.971Z expo:babel:exports Found assignment to module.exports or exports at 38
+| 2025-11-06T13:43:08.032Z expo:babel:exports Found assignment to module.exports or exports at 625
+| 2025-11-06T13:43:08.034Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:08.110Z expo:babel:exports Found assignment to module.exports or exports at 80
+| 2025-11-06T13:43:08.141Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:43:08.146Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:08.187Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:08.221Z expo:babel:exports Found assignment to module.exports or exports at 37
+| 2025-11-06T13:43:08.232Z expo:babel:exports Found assignment to module.exports or exports at 22
+| 2025-11-06T13:43:08.277Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:08.298Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:08.376Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:08.424Z expo:babel:exports Found assignment to module.exports or exports at 11
+| 2025-11-06T13:43:08.450Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:08.452Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:43:08.474Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:08.474Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:08.546Z expo:babel:exports Found assignment to module.exports or exports at 48
+| 2025-11-06T13:43:08.569Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:43:08.755Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:08.802Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:08.813Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:08.882Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:09.077Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:09.081Z expo:babel:exports Found assignment to module.exports or exports at 496
+| 2025-11-06T13:43:09.086Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:09.099Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:09.113Z expo:babel:exports Found assignment to module.exports or exports at 2
+| 2025-11-06T13:43:09.138Z expo:babel:exports Found assignment to module.exports or exports at 59
+| 2025-11-06T13:43:09.193Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:43:09.335Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:09.349Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:09.466Z expo:babel:exports Found assignment to module.exports or exports at 48
+| 2025-11-06T13:43:09.495Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:09.504Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:09.514Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:09.609Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:09.623Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:09.785Z expo:babel:exports Found assignment to module.exports or exports at 16
+| 2025-11-06T13:43:09.949Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:09.984Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:10.107Z expo:babel:exports Found assignment to module.exports or exports at 15
+| 2025-11-06T13:43:10.262Z expo:babel:exports Found assignment to module.exports or exports at 36
+| 2025-11-06T13:43:10.328Z expo:babel:exports Found assignment to module.exports or exports at 15
+| 2025-11-06T13:43:10.384Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:10.459Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:10.476Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:10.533Z expo:babel:exports Found assignment to module.exports or exports at 39
+| 2025-11-06T13:43:10.781Z expo:babel:exports Found assignment to module.exports or exports at 81
+| 2025-11-06T13:43:10.782Z expo:babel:exports Found assignment to module.exports or exports at 24876
+| 2025-11-06T13:43:10.904Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:11.053Z expo:babel:exports Found assignment to module.exports or exports at 78
+| 2025-11-06T13:43:11.359Z expo:babel:exports Found assignment to module.exports or exports at 32
+| 2025-11-06T13:43:11.434Z expo:babel:exports Found assignment to module.exports or exports at 6
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 85.9% (862/930)
+| 2025-11-06T13:43:11.493Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:11.498Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:11.531Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:11.711Z expo:babel:exports Found assignment to module.exports or exports at 140
+| 2025-11-06T13:43:11.720Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:11.735Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:43:11.744Z expo:babel:exports Found assignment to module.exports or exports at 63
+| 2025-11-06T13:43:11.756Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:11.756Z expo:babel:exports Found assignment to module.exports or exports at 12
+| 2025-11-06T13:43:11.774Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:11.813Z expo:babel:exports Found assignment to module.exports or exports at 215
+| 2025-11-06T13:43:11.844Z expo:babel:exports Found assignment to module.exports or exports at 192
+| 2025-11-06T13:43:11.868Z expo:babel:exports Found assignment to module.exports or exports at 11
+| 2025-11-06T13:43:11.870Z expo:babel:exports Found assignment to module.exports or exports at 42
+| 2025-11-06T13:43:11.885Z expo:babel:exports Found assignment to module.exports or exports at 28
+| 2025-11-06T13:43:11.899Z expo:babel:exports Found assignment to module.exports or exports at 136
+| 2025-11-06T13:43:11.913Z expo:babel:exports Found assignment to module.exports or exports at 319
+| 2025-11-06T13:43:11.992Z expo:babel:exports Found assignment to module.exports or exports at 54
+| 2025-11-06T13:43:12.011Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:12.021Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:12.113Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:43:12.159Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:43:12.184Z expo:babel:exports Found assignment to exports at 9
+| 2025-11-06T13:43:12.195Z expo:babel:exports Found assignment to module.exports or exports at 18
+| 2025-11-06T13:43:12.317Z expo:babel:exports Found assignment to module.exports or exports at 645
+| 2025-11-06T13:43:12.470Z expo:babel:exports Found assignment to module.exports or exports at 3
+| 2025-11-06T13:43:12.475Z expo:babel:exports Found assignment to module.exports or exports at 6
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 90.0% ( 976/1029)
+| 2025-11-06T13:43:15.533Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:43:15.535Z expo:babel:exports Found assignment to module.exports or exports at 17
+| node:internal/child_process/serialization:114
+|     ser.writeValue(message);
+|         ^
+| 
+| Error: Data cannot be cloned, out of memory.
+| [90m    at writeChannelMessage (node:internal/child_process/serialization:114:9)[39m
+| [90m    at target._send (node:internal/child_process:851:17)[39m
+| [90m    at target.send (node:internal/child_process:751:19)[39m
+|     at reportSuccess [90m(D:\Project\App\webview\riziq-app\[39mnode_modules\[4mjest-worker[24m\build\workers\processChild.js:82:11[90m)[39m
+| [90m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+| 
+| Node.js v24.11.0
+| 2025-11-06T13:43:16.600Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:16.616Z expo:babel:exports Found assignment to module.exports or exports at 160
+| 2025-11-06T13:43:16.645Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:16.652Z expo:babel:exports Found assignment to module.exports or exports at 182
+| 2025-11-06T13:43:16.661Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:16.684Z expo:babel:exports Found assignment to module.exports or exports at 22
+| 2025-11-06T13:43:16.700Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:16.718Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:16.734Z expo:babel:exports Found assignment to module.exports or exports at 5
+| 2025-11-06T13:43:16.758Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:16.779Z expo:babel:exports Found assignment to module.exports or exports at 20
+| 2025-11-06T13:43:16.861Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:17.294Z expo:babel:exports Found assignment to module.exports or exports at 18
+| 2025-11-06T13:43:17.312Z expo:babel:exports Found assignment to module.exports or exports at 8
+| 2025-11-06T13:43:18.395Z expo:babel:exports Found assignment to module.exports or exports at 24876
+| 2025-11-06T13:43:18.800Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:18.800Z expo:babel:exports Found assignment to module.exports or exports at 35
+| 2025-11-06T13:43:18.820Z expo:babel:exports Found assignment to module.exports or exports at 117
+| 2025-11-06T13:43:18.831Z expo:babel:exports Found assignment to module.exports or exports at 182
+| 2025-11-06T13:43:18.861Z expo:babel:exports Found assignment to module.exports or exports at 3
+Web node_modules\expo-router\entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.7% (1143/1145)
+| 2025-11-06T13:43:19.096Z expo:babel:exports Found assignment to module.exports or exports at 17
+| 2025-11-06T13:43:19.107Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:19.107Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:19.114Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:19.123Z expo:babel:exports Found assignment to module.exports or exports at 51
+| 2025-11-06T13:43:19.125Z expo:babel:exports Found assignment to module.exports or exports at 7
+| 2025-11-06T13:43:19.335Z expo:babel:exports Found assignment to module.exports or exports at 4
+| 2025-11-06T13:43:19.350Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:43:19.359Z expo:babel:exports Found assignment to module.exports or exports at 6
+| 2025-11-06T13:43:19.385Z expo:babel:exports Found assignment to module.exports or exports at 1
+| 2025-11-06T13:43:19.411Z expo:babel:exports Found assignment to module.exports or exports at 154
+| 2025-11-06T13:43:19.418Z expo:babel:exports Found assignment to module.exports or exports at 3
+2025-11-06T13:43:19.545Z expo:metro-config:serializer:env-var Injecting environment variables in virtual module.
+Web Bundled 14268ms node_modules\expo-router\entry.js (1170 modules)
